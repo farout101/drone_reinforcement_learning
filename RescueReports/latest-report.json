@@ -1,0 +1,213 @@
+{
+    "mission": "Flood rescue / simulated hazard assessment",
+    "mapVersion": "village-v1",
+    "gridSize": 9,
+    "gridSpacing": 2.5,
+    "returnedToBase": true,
+    "moves": 46,
+    "recoveries": 0,
+    "coverage": 0.9876543283462524,
+    "people": [
+        {
+            "name": "SOS 01 — rooftop",
+            "x": 2,
+            "z": 3,
+            "height": 3.0
+        },
+        {
+            "name": "SOS 02 — upper roof",
+            "x": 6,
+            "z": 5,
+            "height": 5.400000095367432
+        },
+        {
+            "name": "SOS 03 — stranded family",
+            "x": 7,
+            "z": 7,
+            "height": 3.0
+        },
+        {
+            "name": "SOS 04 — west bank",
+            "x": 0,
+            "z": 7,
+            "height": 0.4873793423175812
+        }
+    ],
+    "roads": [
+        {
+            "name": "North bridge",
+            "status": "Blocked",
+            "reason": "Collapsed bridge",
+            "tiles": [
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61
+            ],
+            "observedTiles": 7,
+            "observedHazards": [
+                {
+                    "x": 3,
+                    "z": 6,
+                    "kind": "Collapsed bridge"
+                },
+                {
+                    "x": 4,
+                    "z": 6,
+                    "kind": "Collapsed bridge"
+                },
+                {
+                    "x": 5,
+                    "z": 6,
+                    "kind": "Deep floodwater"
+                }
+            ]
+        },
+        {
+            "name": "Riverside road",
+            "status": "Blocked",
+            "reason": "Deep floodwater",
+            "tiles": [
+                32,
+                41,
+                50,
+                59,
+                68
+            ],
+            "observedTiles": 5,
+            "observedHazards": [
+                {
+                    "x": 5,
+                    "z": 3,
+                    "kind": "Deep floodwater"
+                },
+                {
+                    "x": 5,
+                    "z": 4,
+                    "kind": "Deep floodwater"
+                },
+                {
+                    "x": 5,
+                    "z": 5,
+                    "kind": "Deep floodwater"
+                },
+                {
+                    "x": 5,
+                    "z": 6,
+                    "kind": "Deep floodwater"
+                },
+                {
+                    "x": 5,
+                    "z": 7,
+                    "kind": "Deep floodwater"
+                }
+            ]
+        },
+        {
+            "name": "Eastern access",
+            "status": "Blocked",
+            "reason": "Road blocked by rubble",
+            "tiles": [
+                42,
+                43,
+                44
+            ],
+            "observedTiles": 3,
+            "observedHazards": [
+                {
+                    "x": 7,
+                    "z": 4,
+                    "kind": "Road blocked by rubble"
+                }
+            ]
+        },
+        {
+            "name": "South bridge",
+            "status": "Passable",
+            "reason": "Entire route observed clear",
+            "tiles": [
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25
+            ],
+            "observedTiles": 7,
+            "observedHazards": []
+        },
+        {
+            "name": "West ridge road",
+            "status": "Passable",
+            "reason": "Entire route observed clear",
+            "tiles": [
+                10,
+                19,
+                28,
+                37,
+                46,
+                55,
+                64
+            ],
+            "observedTiles": 7,
+            "observedHazards": []
+        }
+    ],
+    "flightSegments": [
+        {
+            "cells": [
+                10,
+                91,
+                172,
+                173,
+                174,
+                175,
+                176,
+                177,
+                178,
+                187,
+                196,
+                205,
+                204,
+                203,
+                194,
+                193,
+                202,
+                201,
+                120,
+                119,
+                118,
+                199,
+                208,
+                209,
+                218,
+                217,
+                226,
+                227,
+                228,
+                229,
+                230,
+                231,
+                232,
+                223,
+                214,
+                133,
+                124,
+                43,
+                34,
+                25,
+                24,
+                23,
+                14,
+                13,
+                12,
+                11,
+                10
+            ]
+        }
+    ]
+}
